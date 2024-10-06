@@ -49,11 +49,11 @@ public class guess_num {
             System.out.println("TO LOW !   [hint : choose bigger number] \n");
             attempt++;
          }
-         if (guess > i) {
+        else if (guess > i) {
             System.out.println("TO HIGH !   [hint : choose smaller number]\n ");
             attempt++;
          }
-         if (guess == i) {
+        else(guess == i) {
             System.out.println("<<<<<<<YOU HAVE GUESSED IT CORRECT>>>>>>\n");
             play = guess_num.again();
             attempt = checkplay(attempt, play);

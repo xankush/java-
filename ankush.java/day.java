@@ -5,6 +5,10 @@ import java.util.*;
 
 class Result {
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
     public static String findDay(int month, int day, int year) {
       Calendar cal = Calendar.getInstance();
       cal.set(Calendar.DAY_OF_MONTH, day);
